@@ -12,5 +12,6 @@
   <modules>
     <module>executor</module>
     <module>backend</module>
+	<module>protocol</module>
   </modules>
 </project>
