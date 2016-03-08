@@ -1,0 +1,609 @@
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.log.Logs(line-20) 1     - Nutz is licensed under the Apache License, Version 2.0 .
+Report bugs : https://github.com/nutzam/nutz/issues
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.mvc.NutFilter(line-72) 8     - NutFilter[etl] starting ...
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-486) 101   - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.resource.impl.ErrorResourceLocation(line-27) 102   - [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes]not exist
+2016-03-0809:02:16 [localhost-startStop-1] WARN  org.nutz.resource.Scans(line-72) 103   - /WEB-INF/lib/ NOT found?!
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-75) 105   - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], ErrorResourceLocation [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 110   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-50) 119   - Loading by class org.nutz.mvc.impl.NutLoading
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-55) 122   - Nutz Version : 1.r.54 
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-56) 122   - Nutz.Mvc[etl] is initializing ...
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-60) 123   - Web Container Information:
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-61) 139   -  - Default Charset : GBK
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-62) 139   -  - Current . path  : E:\MavenP\etl\backend\.
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-63) 140   -  - Java Version    : 1.7.0_67
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-64) 143   -  - File separator  : \
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-65) 145   -  - Timezone        : Asia/Shanghai
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-66) 147   -  - OS              : Windows 7 amd64
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-67) 148   -  - ServerInfo      : Apache Tomcat/7.0.30
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-68) 149   -  - Servlet API     : 3.0
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-73) 151   -  - ContextPath     : /backend
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 153   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-231) 154   - >> app.root = E:/MavenP/etl/backend/src/main/webapp
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.castor.Castors(line-115) 209   - Using 94 castor for Castors
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-368) 213   - @IocBy(type=org.nutz.mvc.ioc.provider.ComboIocProvider, args=["*js", "ioc/", "*anno", "cn.jdworks.etl.backend", "*tx"],init=[])
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 226   - Found 2 resource by src( ioc/ ) , regex( ^(.+[.])(js|json)$ )
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 227   - loading ioc js config from [biz.js]
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 231   - loading ioc js config from [dao.js]
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-52) 234   - Loaded 3 bean define from path=[ioc/] --> [dataSource, dao, executorManager]
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 239   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 256   - Found : class cn.jdworks.etl.backend.module.TimerTaskExeModule
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 278   - Found : class cn.jdworks.etl.backend.module.TimerTaskModule
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-48) 283   - Found 2 classes in 1 base-packages!
+beans = ["timerTaskModule", "timerTaskExeModule"]
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-36) 285   - Loaded 5 bean define from reader --
+[txREPEATABLE_READ, txREAD_COMMITTED, txNONE, txSERIALIZABLE, txREAD_UNCOMMITTED]
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-96) 288   - NutIoc init begin ...
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-113) 291   - ... NutIoc init complete
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 293   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-157) 296   - Build URL mapping by org.nutz.mvc.impl.UrlMappingImpl ...
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-358) 298   - @Views(DefaultViewMaker)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-259) 304   - @ChainBy(org.nutz.mvc.impl.NutActionChainMaker)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-154) 310   - module class location 'file:/E:/MavenP/etl/backend/target/classes/'
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-184) 311   -  > scan 'cn.jdworks.etl.backend'
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 316   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 317   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskExeModule'
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 318   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskModule'
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 324   - Optional processor class not found, disabled : org.nutz.integration.shiro.NutShiroProcessor
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 328   - Optional processor class not found, disabled : org.nutz.plugins.validation.ValidationProcessor
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 354   -    '/timertaskexe/count'       >> TimerTaskExeModule.count(...)  : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 359   -    '/timertaskexe/?'           >> TimerTaskExeModule.getTaskExe(...) : TimerTaskExe | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 366   -    '/timertaskexe/update'      >> TimerTaskExeModule.updateTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 368   -    '/timertaskexe/add'         >> TimerTaskExeModule.addTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] WARN  org.nutz.mvc.impl.UrlMappingImpl(line-61) 369   - Duplicate @At mapping ? path=/timertaskexe/?
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 370   -    '/timertaskexe/?'           >> TimerTaskExeModule.deleteTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 372   -    '/timertaskexe/'            >> TimerTaskExeModule.getAllTaskExes(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 375   -    '/timertask/add'            >> TimerTaskModule.add(...)       : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 377   -    '/timertask/count'          >> TimerTaskModule.count(...)     : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 383   -    '/timertask/?'              >> TimerTaskModule.getTask(...)   : TimerTask  | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 385   -    '/timertask/update'         >> TimerTaskModule.updateTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 386   -    '/timertask/'               >> TimerTaskModule.getAllTasks(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 387   -    '/timertask/?'              >> TimerTaskModule.deleteTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-217) 388   - Found 12 module methods
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-323) 390   - @Localization not define
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-267) 392   - Setup application...
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 393   - Get 'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 396   - 	 >> Load definition
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 398   - Loading define for name=dao
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 402   - Found IocObject(dao) in IocLoader(JsonLoader@895142194)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 403   - 	 >> Make...'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 427   - Load class org.nutz.dao.impl.NutDao without AOP
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 430   - Save object 'dao' to [app] 
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 432   - Get 'dataSource'<>
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 432   - 	 >> Load definition
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 433   - Loading define for name=dataSource
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 444   - Found IocObject(dataSource) in IocLoader(JsonLoader@895142194)
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 445   - 	 >> Make...'dataSource'<>
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 480   - Load class com.alibaba.druid.pool.DruidDataSource without AOP
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 481   - Save object 'dataSource' to [app] 
+2016-03-0809:02:16 [localhost-startStop-1] INFO  com.alibaba.druid.pool.DruidDataSource(line-669) 561   - {dataSource-1} inited
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 563   - Get 'dataSource'<>
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.dao.impl.NutDao(line-105) 572   - NutDao[_selfId=0] init ...
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-23) 595   - Init file-pool by: C:\Users\Rayleigh/.nutz/tmp/dao/ [200000]
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.filepool.NutFilePool(line-37) 614   - file-pool.home: 'C:\Users\Rayleigh\.nutz\tmp\dao'
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-66) 615   - file-pool.cursor: 0
+2016-03-0809:02:16 [localhost-startStop-1] DEBUG org.nutz.dao.jdbc.Jdbcs(line-89) 623   - Jdbcs init complete
+2016-03-0809:02:16 [localhost-startStop-1] INFO  org.nutz.dao.jdbc.Jdbcs(line-102) 624   - Get Connection from DataSource for JdbcExpert, if I lock at here, check your database server and configure
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-172) 1780  - JDBC Driver --> mysql-connector-java-5.1.38 ( Revision: fe541c166cec739c74cc727c5da96c1028b4834a )
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-173) 1780  - JDBC Name   --> MySQL Connector Java
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-175) 1781  - JDBC URL    --> jdbc:mysql://127.0.0.1:3306/etl?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1873  - Mysql : character_set_client=utf8
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1874  - Mysql : character_set_connection=utf8
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1875  - Mysql : character_set_database=utf8
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1878  - Mysql : character_set_filesystem=binary
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1879  - Mysql : character_set_results=
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1881  - Mysql : character_set_server=latin1
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1882  - Mysql : character_set_system=utf8
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1884  - Mysql : character_sets_dir=D:\WAMP\wamp\bin\mysql\mysql5.5.24\share\charsets\
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-189) 1886  - Database info --> MYSQL:[MySQL - 5.5.24]
+2016-03-0809:02:17 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 1896  - Found 6 resource by src( cn/jdworks/etl/backend/bean/ ) , regex( ^.+[.]class$ )
+2016-03-0809:02:18 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 2231  - SELECT COUNT(*) FROM TimerTask 
+2016-03-0809:02:18 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 2268  - SELECT COUNT(*) FROM TimerTaskExe 
+2016-03-0809:02:18 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-139) 2269  - Nutz.Mvc[etl] is up in 2116ms
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-92) 38404  - Found mapping for [GET] path=/timertask/ : TimerTaskModule.getAllTasks(TimerTaskModule.java:36)
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 38408  - Get 'timerTaskModule'<class cn.jdworks.etl.backend.module.TimerTaskModule>
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 38409  - 	 >> Load definition
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 38409  - Found IocObject(timerTaskModule) in IocLoader(AnnotationIocLoader@1541567806)
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 38410  - 	 >> Make...'timerTaskModule'<class cn.jdworks.etl.backend.module.TimerTaskModule>
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 38413  - Load class cn.jdworks.etl.backend.module.TimerTaskModule without AOP
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 38415  - Save object 'timerTaskModule' to [app] 
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 38418  - Get 'dao'<>
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 38420  - Get 'executorManager'<>
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 38421  - 	 >> Load definition
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 38423  - Loading define for name=executorManager
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 38425  - Found IocObject(executorManager) in IocLoader(JsonLoader@895142194)
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 38426  - 	 >> Make...'executorManager'<>
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 38428  - Load class cn.jdworks.etl.backend.biz.ExecutorManager without AOP
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 38429  - Save object 'executorManager' to [app] 
+2016-03-0809:02:54 [http-bio-8080-exec-7] INFO  cn.jdworks.etl.backend.biz.ExecutorManager(line-11) 38431  - Executor Manager created.
+2016-03-0809:02:54 [http-bio-8080-exec-7] INFO  cn.jdworks.etl.backend.biz.ExecutorManager(line-18) 38483  - Executor manager connected ActiveMQ.
+2016-03-0809:02:54 [http-bio-8080-exec-7] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 38490  - SELECT * FROM TimerTask 
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-92) 43112  - Found mapping for [GET] path=/timertaskexe/ : TimerTaskExeModule.getAllTaskExes(TimerTaskExeModule.java:34)
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 43113  - Get 'timerTaskExeModule'<class cn.jdworks.etl.backend.module.TimerTaskExeModule>
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 43114  - 	 >> Load definition
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 43116  - Found IocObject(timerTaskExeModule) in IocLoader(AnnotationIocLoader@1541567806)
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 43117  - 	 >> Make...'timerTaskExeModule'<class cn.jdworks.etl.backend.module.TimerTaskExeModule>
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 43119  - Load class cn.jdworks.etl.backend.module.TimerTaskExeModule without AOP
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 43120  - Save object 'timerTaskExeModule' to [app] 
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 43122  - Get 'dao'<>
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 43123  - Get 'executorManager'<>
+2016-03-0809:02:59 [http-bio-8080-exec-8] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 43124  - SELECT * FROM TimerTaskExe 
+2016-03-0809:03:03 [http-bio-8080-exec-8] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-92) 47904  - Found mapping for [GET] path=/timertaskexe/2 : TimerTaskExeModule.getTaskExe(TimerTaskExeModule.java:41)
+2016-03-0809:03:03 [http-bio-8080-exec-8] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 47907  - Get 'timerTaskExeModule'<class cn.jdworks.etl.backend.module.TimerTaskExeModule>
+2016-03-0809:03:03 [http-bio-8080-exec-8] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-212) 47910  - SELECT * FROM TimerTaskExe  WHERE Id=?
+    | 1 |
+    |---|
+    | 2 |
+  For example:> "SELECT * FROM TimerTaskExe  WHERE Id=2"
+2016-03-0809:07:05 [localhost-startStop-2] INFO  org.nutz.mvc.impl.NutLoading(line-409) 289634  - Nutz.Mvc[etl] is deposing ...
+2016-03-0809:07:05 [localhost-startStop-2] INFO  org.nutz.ioc.impl.NutIoc(line-241) 289636  - Closing class org.nutz.ioc.impl.NutIoc@1686274640 startup date [Tue Mar 08 09:02:16 CST 2016]
+2016-03-0809:07:05 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 289637  - Depose object 'dataSource' ...
+2016-03-0809:07:05 [localhost-startStop-2] INFO  com.alibaba.druid.pool.DruidDataSource(line-1385) 289643  - {dataSource-1} closed
+2016-03-0809:07:05 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 289645  - Depose object 'dao' ...
+2016-03-0809:07:05 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 289646  - Depose object 'timerTaskModule' ...
+2016-03-0809:07:05 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 289648  - Depose object 'executorManager' ...
+2016-03-0809:07:05 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 289649  - Depose object 'timerTaskExeModule' ...
+2016-03-0809:07:05 [localhost-startStop-2] INFO  org.nutz.ioc.impl.NutIoc(line-245) 289651  - class org.nutz.ioc.impl.NutIoc@1686274640 is deposed.
+2016-03-0809:07:05 [localhost-startStop-2] INFO  org.nutz.mvc.impl.NutLoading(line-434) 289652  - Nutz.Mvc[etl] is down in 16ms
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.log.Logs(line-20) 0     - Nutz is licensed under the Apache License, Version 2.0 .
+Report bugs : https://github.com/nutzam/nutz/issues
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.NutFilter(line-72) 9     - NutFilter[etl] starting ...
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-486) 117   - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.resource.impl.ErrorResourceLocation(line-27) 118   - [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes]not exist
+2016-03-0809:07:19 [localhost-startStop-1] WARN  org.nutz.resource.Scans(line-72) 119   - /WEB-INF/lib/ NOT found?!
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-75) 121   - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], ErrorResourceLocation [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 125   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-50) 135   - Loading by class org.nutz.mvc.impl.NutLoading
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-55) 137   - Nutz Version : 1.r.54 
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-56) 138   - Nutz.Mvc[etl] is initializing ...
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-60) 139   - Web Container Information:
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-61) 142   -  - Default Charset : GBK
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-62) 143   -  - Current . path  : E:\MavenP\etl\backend\.
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-63) 144   -  - Java Version    : 1.7.0_67
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-64) 146   -  - File separator  : \
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-65) 147   -  - Timezone        : Asia/Shanghai
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-66) 149   -  - OS              : Windows 7 amd64
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-67) 151   -  - ServerInfo      : Apache Tomcat/7.0.30
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-68) 152   -  - Servlet API     : 3.0
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-73) 154   -  - ContextPath     : /backend
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 156   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-231) 157   - >> app.root = E:/MavenP/etl/backend/src/main/webapp
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.castor.Castors(line-115) 226   - Using 94 castor for Castors
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-368) 231   - @IocBy(type=org.nutz.mvc.ioc.provider.ComboIocProvider, args=["*js", "ioc/", "*anno", "cn.jdworks.etl.backend", "*tx"],init=[])
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 245   - Found 2 resource by src( ioc/ ) , regex( ^(.+[.])(js|json)$ )
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 245   - loading ioc js config from [biz.js]
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 249   - loading ioc js config from [dao.js]
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-52) 252   - Loaded 3 bean define from path=[ioc/] --> [dataSource, dao, executorManager]
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 257   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 285   - Found : class cn.jdworks.etl.backend.module.TimerTaskExeModule
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 297   - Found : class cn.jdworks.etl.backend.module.TimerTaskModule
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-48) 301   - Found 2 classes in 1 base-packages!
+beans = ["timerTaskModule", "timerTaskExeModule"]
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-36) 302   - Loaded 5 bean define from reader --
+[txREPEATABLE_READ, txREAD_COMMITTED, txNONE, txSERIALIZABLE, txREAD_UNCOMMITTED]
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-96) 306   - NutIoc init begin ...
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-113) 309   - ... NutIoc init complete
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 311   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-157) 314   - Build URL mapping by org.nutz.mvc.impl.UrlMappingImpl ...
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-358) 316   - @Views(DefaultViewMaker)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-259) 324   - @ChainBy(org.nutz.mvc.impl.NutActionChainMaker)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-154) 330   - module class location 'file:/E:/MavenP/etl/backend/target/classes/'
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-184) 331   -  > scan 'cn.jdworks.etl.backend'
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 337   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 338   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskExeModule'
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 341   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskModule'
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 347   - Optional processor class not found, disabled : org.nutz.integration.shiro.NutShiroProcessor
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 352   - Optional processor class not found, disabled : org.nutz.plugins.validation.ValidationProcessor
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 361   -    '/timertaskexe/count'       >> TimerTaskExeModule.count(...)  : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 362   -    '/timertaskexe/'            >> TimerTaskExeModule.getAllTaskExes(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 369   -    '/timertaskexe/?'           >> TimerTaskExeModule.getTaskExe(...) : TimerTaskExe | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 375   -    '/timertaskexe/update'      >> TimerTaskExeModule.updateTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 377   -    '/timertaskexe/add'         >> TimerTaskExeModule.addTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] WARN  org.nutz.mvc.impl.UrlMappingImpl(line-61) 378   - Duplicate @At mapping ? path=/timertaskexe/?
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 379   -    '/timertaskexe/?'           >> TimerTaskExeModule.deleteTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 383   -    '/timertask/add'            >> TimerTaskModule.add(...)       : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 384   -    '/timertask/count'          >> TimerTaskModule.count(...)     : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 387   -    '/timertask/?'              >> TimerTaskModule.getTask(...)   : TimerTask  | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 389   -    '/timertask/update'         >> TimerTaskModule.updateTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 391   -    '/timertask/'               >> TimerTaskModule.getAllTasks(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 392   -    '/timertask/?'              >> TimerTaskModule.deleteTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-217) 393   - Found 12 module methods
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-323) 395   - @Localization not define
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-267) 396   - Setup application...
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 400   - Get 'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 404   - 	 >> Load definition
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 406   - Loading define for name=dao
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 411   - Found IocObject(dao) in IocLoader(JsonLoader@32835301)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 411   - 	 >> Make...'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 424   - Load class org.nutz.dao.impl.NutDao without AOP
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 425   - Save object 'dao' to [app] 
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 428   - Get 'dataSource'<>
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 429   - 	 >> Load definition
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 430   - Loading define for name=dataSource
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 440   - Found IocObject(dataSource) in IocLoader(JsonLoader@32835301)
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 441   - 	 >> Make...'dataSource'<>
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 463   - Load class com.alibaba.druid.pool.DruidDataSource without AOP
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 464   - Save object 'dataSource' to [app] 
+2016-03-0809:07:19 [localhost-startStop-1] INFO  com.alibaba.druid.pool.DruidDataSource(line-669) 536   - {dataSource-1} inited
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 538   - Get 'dataSource'<>
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.NutDao(line-105) 548   - NutDao[_selfId=0] init ...
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-23) 573   - Init file-pool by: C:\Users\Rayleigh/.nutz/tmp/dao/ [200000]
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.filepool.NutFilePool(line-37) 574   - file-pool.home: 'C:\Users\Rayleigh\.nutz\tmp\dao'
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-66) 576   - file-pool.cursor: 0
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.jdbc.Jdbcs(line-89) 588   - Jdbcs init complete
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.dao.jdbc.Jdbcs(line-102) 589   - Get Connection from DataSource for JdbcExpert, if I lock at here, check your database server and configure
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-172) 815   - JDBC Driver --> mysql-connector-java-5.1.38 ( Revision: fe541c166cec739c74cc727c5da96c1028b4834a )
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-173) 816   - JDBC Name   --> MySQL Connector Java
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-175) 817   - JDBC URL    --> jdbc:mysql://127.0.0.1:3306/etl?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 850   - Mysql : character_set_client=utf8
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 851   - Mysql : character_set_connection=utf8
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 854   - Mysql : character_set_database=utf8
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 855   - Mysql : character_set_filesystem=binary
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 857   - Mysql : character_set_results=
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 859   - Mysql : character_set_server=latin1
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 861   - Mysql : character_set_system=utf8
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 862   - Mysql : character_sets_dir=D:\WAMP\wamp\bin\mysql\mysql5.5.24\share\charsets\
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-189) 864   - Database info --> MYSQL:[MySQL - 5.5.24]
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 873   - Found 6 resource by src( cn/jdworks/etl/backend/bean/ ) , regex( ^.+[.]class$ )
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 946   - SELECT COUNT(*) FROM TimerTask 
+2016-03-0809:07:19 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 947   - SELECT COUNT(*) FROM TimerTaskExe 
+2016-03-0809:07:19 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-139) 949   - Nutz.Mvc[etl] is up in 793ms
+2016-03-0809:08:43 [localhost-startStop-2] INFO  org.nutz.mvc.impl.NutLoading(line-409) 84804  - Nutz.Mvc[etl] is deposing ...
+2016-03-0809:08:43 [localhost-startStop-2] INFO  org.nutz.ioc.impl.NutIoc(line-241) 84810  - Closing class org.nutz.ioc.impl.NutIoc@16573384 startup date [Tue Mar 08 09:07:19 CST 2016]
+2016-03-0809:08:43 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 84811  - Depose object 'dataSource' ...
+2016-03-0809:08:43 [localhost-startStop-2] INFO  com.alibaba.druid.pool.DruidDataSource(line-1385) 84819  - {dataSource-1} closed
+2016-03-0809:08:43 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 84822  - Depose object 'dao' ...
+2016-03-0809:08:43 [localhost-startStop-2] INFO  org.nutz.ioc.impl.NutIoc(line-245) 84823  - class org.nutz.ioc.impl.NutIoc@16573384 is deposed.
+2016-03-0809:08:43 [localhost-startStop-2] INFO  org.nutz.mvc.impl.NutLoading(line-434) 84824  - Nutz.Mvc[etl] is down in 15ms
+2016-03-0809:08:55 [localhost-startStop-1] INFO  org.nutz.log.Logs(line-20) 1     - Nutz is licensed under the Apache License, Version 2.0 .
+Report bugs : https://github.com/nutzam/nutz/issues
+2016-03-0809:08:55 [localhost-startStop-1] INFO  org.nutz.mvc.NutFilter(line-72) 7     - NutFilter[etl] starting ...
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-486) 94    - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:08:55 [localhost-startStop-1] INFO  org.nutz.resource.impl.ErrorResourceLocation(line-27) 95    - [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes]not exist
+2016-03-0809:08:55 [localhost-startStop-1] WARN  org.nutz.resource.Scans(line-72) 95    - /WEB-INF/lib/ NOT found?!
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-75) 98    - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], ErrorResourceLocation [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 102   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-50) 111   - Loading by class org.nutz.mvc.impl.NutLoading
+2016-03-0809:08:55 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-55) 113   - Nutz Version : 1.r.54 
+2016-03-0809:08:55 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-56) 114   - Nutz.Mvc[etl] is initializing ...
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-60) 115   - Web Container Information:
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-61) 119   -  - Default Charset : GBK
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-62) 120   -  - Current . path  : E:\MavenP\etl\backend\.
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-63) 121   -  - Java Version    : 1.7.0_67
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-64) 123   -  - File separator  : \
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-65) 124   -  - Timezone        : Asia/Shanghai
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-66) 126   -  - OS              : Windows 7 amd64
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-67) 127   -  - ServerInfo      : Apache Tomcat/7.0.30
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-68) 129   -  - Servlet API     : 3.0
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-73) 130   -  - ContextPath     : /backend
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 133   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:08:55 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-231) 134   - >> app.root = E:/MavenP/etl/backend/src/main/webapp
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.castor.Castors(line-115) 196   - Using 94 castor for Castors
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-368) 201   - @IocBy(type=org.nutz.mvc.ioc.provider.ComboIocProvider, args=["*js", "ioc/", "*anno", "cn.jdworks.etl.backend", "*tx"],init=[])
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 214   - Found 2 resource by src( ioc/ ) , regex( ^(.+[.])(js|json)$ )
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 215   - loading ioc js config from [biz.js]
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 219   - loading ioc js config from [dao.js]
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-52) 222   - Loaded 3 bean define from path=[ioc/] --> [dataSource, dao, executorManager]
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 227   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 251   - Found : class cn.jdworks.etl.backend.module.TimerTaskExeModule
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 261   - Found : class cn.jdworks.etl.backend.module.TimerTaskModule
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-48) 265   - Found 2 classes in 1 base-packages!
+beans = ["timerTaskModule", "timerTaskExeModule"]
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-36) 266   - Loaded 5 bean define from reader --
+[txREPEATABLE_READ, txREAD_COMMITTED, txNONE, txSERIALIZABLE, txREAD_UNCOMMITTED]
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-96) 271   - NutIoc init begin ...
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-113) 273   - ... NutIoc init complete
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 274   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-157) 277   - Build URL mapping by org.nutz.mvc.impl.UrlMappingImpl ...
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-358) 279   - @Views(DefaultViewMaker)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-259) 285   - @ChainBy(org.nutz.mvc.impl.NutActionChainMaker)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-154) 290   - module class location 'file:/E:/MavenP/etl/backend/target/classes/'
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-184) 291   -  > scan 'cn.jdworks.etl.backend'
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 295   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 297   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskExeModule'
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 298   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskModule'
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 305   - Optional processor class not found, disabled : org.nutz.integration.shiro.NutShiroProcessor
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 309   - Optional processor class not found, disabled : org.nutz.plugins.validation.ValidationProcessor
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 317   -    '/timertaskexe/count'       >> TimerTaskExeModule.count(...)  : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 322   -    '/timertaskexe/?'           >> TimerTaskExeModule.getTaskExe(...) : TimerTaskExe | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 328   -    '/timertaskexe/update'      >> TimerTaskExeModule.updateTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 330   -    '/timertaskexe/add'         >> TimerTaskExeModule.addTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] WARN  org.nutz.mvc.impl.UrlMappingImpl(line-61) 331   - Duplicate @At mapping ? path=/timertaskexe/?
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 332   -    '/timertaskexe/?'           >> TimerTaskExeModule.deleteTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 334   -    '/timertaskexe/'            >> TimerTaskExeModule.getAllTaskExes(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 337   -    '/timertask/add'            >> TimerTaskModule.add(...)       : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 339   -    '/timertask/count'          >> TimerTaskModule.count(...)     : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 341   -    '/timertask/?'              >> TimerTaskModule.getTask(...)   : TimerTask  | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 342   -    '/timertask/'               >> TimerTaskModule.getAllTasks(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 344   -    '/timertask/update'         >> TimerTaskModule.updateTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 346   -    '/timertask/?'              >> TimerTaskModule.deleteTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-217) 346   - Found 12 module methods
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-323) 349   - @Localization not define
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-267) 350   - Setup application...
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 352   - Get 'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 354   - 	 >> Load definition
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 356   - Loading define for name=dao
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 360   - Found IocObject(dao) in IocLoader(JsonLoader@242949162)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 361   - 	 >> Make...'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 372   - Load class org.nutz.dao.impl.NutDao without AOP
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 373   - Save object 'dao' to [app] 
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 375   - Get 'dataSource'<>
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 376   - 	 >> Load definition
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 377   - Loading define for name=dataSource
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 387   - Found IocObject(dataSource) in IocLoader(JsonLoader@242949162)
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 388   - 	 >> Make...'dataSource'<>
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 405   - Load class com.alibaba.druid.pool.DruidDataSource without AOP
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 407   - Save object 'dataSource' to [app] 
+2016-03-0809:08:56 [localhost-startStop-1] INFO  com.alibaba.druid.pool.DruidDataSource(line-669) 465   - {dataSource-1} inited
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 467   - Get 'dataSource'<>
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.NutDao(line-105) 475   - NutDao[_selfId=0] init ...
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-23) 494   - Init file-pool by: C:\Users\Rayleigh/.nutz/tmp/dao/ [200000]
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.filepool.NutFilePool(line-37) 496   - file-pool.home: 'C:\Users\Rayleigh\.nutz\tmp\dao'
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-66) 498   - file-pool.cursor: 0
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.jdbc.Jdbcs(line-89) 506   - Jdbcs init complete
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.dao.jdbc.Jdbcs(line-102) 508   - Get Connection from DataSource for JdbcExpert, if I lock at here, check your database server and configure
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-172) 701   - JDBC Driver --> mysql-connector-java-5.1.38 ( Revision: fe541c166cec739c74cc727c5da96c1028b4834a )
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-173) 702   - JDBC Name   --> MySQL Connector Java
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-175) 703   - JDBC URL    --> jdbc:mysql://127.0.0.1:3306/etl?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 711   - Mysql : character_set_client=utf8
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 712   - Mysql : character_set_connection=utf8
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 713   - Mysql : character_set_database=utf8
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 714   - Mysql : character_set_filesystem=binary
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 715   - Mysql : character_set_results=
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 716   - Mysql : character_set_server=latin1
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 718   - Mysql : character_set_system=utf8
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 719   - Mysql : character_sets_dir=D:\WAMP\wamp\bin\mysql\mysql5.5.24\share\charsets\
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-189) 720   - Database info --> MYSQL:[MySQL - 5.5.24]
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 727   - Found 6 resource by src( cn/jdworks/etl/backend/bean/ ) , regex( ^.+[.]class$ )
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 790   - SELECT COUNT(*) FROM TimerTask 
+2016-03-0809:08:56 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 793   - SELECT COUNT(*) FROM TimerTaskExe 
+2016-03-0809:08:56 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-139) 794   - Nutz.Mvc[etl] is up in 661ms
+2016-03-0809:10:13 [localhost-startStop-2] INFO  org.nutz.mvc.impl.NutLoading(line-409) 78094  - Nutz.Mvc[etl] is deposing ...
+2016-03-0809:10:13 [localhost-startStop-2] INFO  org.nutz.ioc.impl.NutIoc(line-241) 78099  - Closing class org.nutz.ioc.impl.NutIoc@1780473245 startup date [Tue Mar 08 09:08:56 CST 2016]
+2016-03-0809:10:13 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 78103  - Depose object 'dataSource' ...
+2016-03-0809:10:13 [localhost-startStop-2] INFO  com.alibaba.druid.pool.DruidDataSource(line-1385) 78111  - {dataSource-1} closed
+2016-03-0809:10:13 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 78113  - Depose object 'dao' ...
+2016-03-0809:10:13 [localhost-startStop-2] INFO  org.nutz.ioc.impl.NutIoc(line-245) 78114  - class org.nutz.ioc.impl.NutIoc@1780473245 is deposed.
+2016-03-0809:10:13 [localhost-startStop-2] INFO  org.nutz.mvc.impl.NutLoading(line-434) 78116  - Nutz.Mvc[etl] is down in 17ms
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.log.Logs(line-20) 0     - Nutz is licensed under the Apache License, Version 2.0 .
+Report bugs : https://github.com/nutzam/nutz/issues
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.mvc.NutFilter(line-72) 7     - NutFilter[etl] starting ...
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-486) 94    - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.resource.impl.ErrorResourceLocation(line-27) 97    - [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes]not exist
+2016-03-0809:10:52 [localhost-startStop-1] WARN  org.nutz.resource.Scans(line-72) 98    - /WEB-INF/lib/ NOT found?!
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-75) 99    - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], ErrorResourceLocation [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 105   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-50) 114   - Loading by class org.nutz.mvc.impl.NutLoading
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-55) 117   - Nutz Version : 1.r.54 
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-56) 118   - Nutz.Mvc[etl] is initializing ...
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-60) 119   - Web Container Information:
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-61) 121   -  - Default Charset : GBK
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-62) 122   -  - Current . path  : E:\MavenP\etl\backend\.
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-63) 124   -  - Java Version    : 1.7.0_67
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-64) 125   -  - File separator  : \
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-65) 126   -  - Timezone        : Asia/Shanghai
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-66) 128   -  - OS              : Windows 7 amd64
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-67) 129   -  - ServerInfo      : Apache Tomcat/7.0.30
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-68) 130   -  - Servlet API     : 3.0
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-73) 131   -  - ContextPath     : /backend
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 132   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-231) 133   - >> app.root = E:/MavenP/etl/backend/src/main/webapp
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.castor.Castors(line-115) 195   - Using 94 castor for Castors
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-368) 200   - @IocBy(type=org.nutz.mvc.ioc.provider.ComboIocProvider, args=["*js", "ioc/", "*anno", "cn.jdworks.etl.backend", "*tx"],init=[])
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 216   - Found 2 resource by src( ioc/ ) , regex( ^(.+[.])(js|json)$ )
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 218   - loading ioc js config from [biz.js]
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 221   - loading ioc js config from [dao.js]
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-52) 225   - Loaded 3 bean define from path=[ioc/] --> [dataSource, dao, executorManager]
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 230   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 247   - Found : class cn.jdworks.etl.backend.module.TimerTaskModule
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 260   - Found : class cn.jdworks.etl.backend.module.TimerTaskExeModule
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-48) 273   - Found 2 classes in 1 base-packages!
+beans = ["timerTaskModule", "timerTaskExeModule"]
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-36) 276   - Loaded 5 bean define from reader --
+[txREPEATABLE_READ, txREAD_COMMITTED, txNONE, txSERIALIZABLE, txREAD_UNCOMMITTED]
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-96) 279   - NutIoc init begin ...
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-113) 282   - ... NutIoc init complete
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 283   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-157) 286   - Build URL mapping by org.nutz.mvc.impl.UrlMappingImpl ...
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-358) 288   - @Views(DefaultViewMaker)
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-259) 295   - @ChainBy(org.nutz.mvc.impl.NutActionChainMaker)
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-154) 300   - module class location 'file:/E:/MavenP/etl/backend/target/classes/'
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-184) 301   -  > scan 'cn.jdworks.etl.backend'
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 305   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 307   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskModule'
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 309   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskExeModule'
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 315   - Optional processor class not found, disabled : org.nutz.integration.shiro.NutShiroProcessor
+2016-03-0809:10:52 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 327   - Optional processor class not found, disabled : org.nutz.plugins.validation.ValidationProcessor
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 334   -    '/timertask/add'            >> TimerTaskModule.add(...)       : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:52 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 337   -    '/timertask/count'          >> TimerTaskModule.count(...)     : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 342   -    '/timertask/?'              >> TimerTaskModule.getTask(...)   : TimerTask  | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 344   -    '/timertask/'               >> TimerTaskModule.getAllTasks(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 347   -    '/timertask/update'         >> TimerTaskModule.updateTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 350   -    '/timertask/?'              >> TimerTaskModule.deleteTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 352   -    '/timertaskexe/count'       >> TimerTaskExeModule.count(...)  : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 355   -    '/timertaskexe/?'           >> TimerTaskExeModule.getTaskExe(...) : TimerTaskExe | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 358   -    '/timertaskexe/update'      >> TimerTaskExeModule.updateTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 361   -    '/timertaskexe/add'         >> TimerTaskExeModule.addTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] WARN  org.nutz.mvc.impl.UrlMappingImpl(line-61) 363   - Duplicate @At mapping ? path=/timertaskexe/?
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 365   -    '/timertaskexe/?'           >> TimerTaskExeModule.deleteTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 367   -    '/timertaskexe/'            >> TimerTaskExeModule.getAllTaskExes(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:10:53 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-217) 368   - Found 12 module methods
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-323) 370   - @Localization not define
+2016-03-0809:10:53 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-267) 371   - Setup application...
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 372   - Get 'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 374   - 	 >> Load definition
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 376   - Loading define for name=dao
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 380   - Found IocObject(dao) in IocLoader(JsonLoader@1809801144)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 382   - 	 >> Make...'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 393   - Load class org.nutz.dao.impl.NutDao without AOP
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 395   - Save object 'dao' to [app] 
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 398   - Get 'dataSource'<>
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 399   - 	 >> Load definition
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 400   - Loading define for name=dataSource
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 408   - Found IocObject(dataSource) in IocLoader(JsonLoader@1809801144)
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 409   - 	 >> Make...'dataSource'<>
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 427   - Load class com.alibaba.druid.pool.DruidDataSource without AOP
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 428   - Save object 'dataSource' to [app] 
+2016-03-0809:10:53 [localhost-startStop-1] INFO  com.alibaba.druid.pool.DruidDataSource(line-669) 488   - {dataSource-1} inited
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 490   - Get 'dataSource'<>
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.NutDao(line-105) 498   - NutDao[_selfId=0] init ...
+2016-03-0809:10:53 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-23) 516   - Init file-pool by: C:\Users\Rayleigh/.nutz/tmp/dao/ [200000]
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.filepool.NutFilePool(line-37) 519   - file-pool.home: 'C:\Users\Rayleigh\.nutz\tmp\dao'
+2016-03-0809:10:53 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-66) 521   - file-pool.cursor: 0
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.jdbc.Jdbcs(line-89) 530   - Jdbcs init complete
+2016-03-0809:10:53 [localhost-startStop-1] INFO  org.nutz.dao.jdbc.Jdbcs(line-102) 532   - Get Connection from DataSource for JdbcExpert, if I lock at here, check your database server and configure
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-172) 736   - JDBC Driver --> mysql-connector-java-5.1.38 ( Revision: fe541c166cec739c74cc727c5da96c1028b4834a )
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-173) 737   - JDBC Name   --> MySQL Connector Java
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-175) 738   - JDBC URL    --> jdbc:mysql://127.0.0.1:3306/etl?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 746   - Mysql : character_set_client=utf8
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 747   - Mysql : character_set_connection=utf8
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 748   - Mysql : character_set_database=utf8
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 749   - Mysql : character_set_filesystem=binary
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 751   - Mysql : character_set_results=
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 752   - Mysql : character_set_server=latin1
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 754   - Mysql : character_set_system=utf8
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 755   - Mysql : character_sets_dir=D:\WAMP\wamp\bin\mysql\mysql5.5.24\share\charsets\
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-189) 756   - Database info --> MYSQL:[MySQL - 5.5.24]
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 764   - Found 6 resource by src( cn/jdworks/etl/backend/bean/ ) , regex( ^.+[.]class$ )
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 828   - SELECT COUNT(*) FROM TimerTask 
+2016-03-0809:10:53 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 830   - SELECT COUNT(*) FROM TimerTaskExe 
+2016-03-0809:10:53 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-139) 831   - Nutz.Mvc[etl] is up in 699ms
+2016-03-0809:12:04 [localhost-startStop-2] INFO  org.nutz.mvc.impl.NutLoading(line-409) 72039  - Nutz.Mvc[etl] is deposing ...
+2016-03-0809:12:04 [localhost-startStop-2] INFO  org.nutz.ioc.impl.NutIoc(line-241) 72076  - Closing class org.nutz.ioc.impl.NutIoc@2655456 startup date [Tue Mar 08 09:10:52 CST 2016]
+2016-03-0809:12:04 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 72077  - Depose object 'dataSource' ...
+2016-03-0809:12:04 [localhost-startStop-2] INFO  com.alibaba.druid.pool.DruidDataSource(line-1385) 72117  - {dataSource-1} closed
+2016-03-0809:12:04 [localhost-startStop-2] DEBUG org.nutz.ioc.impl.ScopeContext(line-91) 72119  - Depose object 'dao' ...
+2016-03-0809:12:04 [localhost-startStop-2] INFO  org.nutz.ioc.impl.NutIoc(line-245) 72120  - class org.nutz.ioc.impl.NutIoc@2655456 is deposed.
+2016-03-0809:12:04 [localhost-startStop-2] INFO  org.nutz.mvc.impl.NutLoading(line-434) 72122  - Nutz.Mvc[etl] is down in 47ms
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.log.Logs(line-20) 0     - Nutz is licensed under the Apache License, Version 2.0 .
+Report bugs : https://github.com/nutzam/nutz/issues
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.mvc.NutFilter(line-72) 9     - NutFilter[etl] starting ...
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-486) 116   - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.resource.impl.ErrorResourceLocation(line-27) 120   - [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes]not exist
+2016-03-0809:12:23 [localhost-startStop-1] WARN  org.nutz.resource.Scans(line-72) 121   - /WEB-INF/lib/ NOT found?!
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-75) 122   - Locations for Scans:
+[FileSystemResourceLocation [root=E:\MavenP\etl\backend], JarResourceLocation [jarPath=D:\Maven\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar], FileSystemResourceLocation [root=E:\MavenP\etl\backend\target\classes], ErrorResourceLocation [loc=E:\MavenP\etl\backend\src\main\webapp\WEB-INF\classes], JarResourceLocation [jarPath=C:\Users\Rayleigh\.m2\repository\org\nutz\nutz\1.r.54\nutz-1.r.54.jar]]
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 127   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-50) 137   - Loading by class org.nutz.mvc.impl.NutLoading
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-55) 139   - Nutz Version : 1.r.54 
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-56) 141   - Nutz.Mvc[etl] is initializing ...
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-60) 142   - Web Container Information:
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-61) 181   -  - Default Charset : GBK
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-62) 183   -  - Current . path  : E:\MavenP\etl\backend\.
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-63) 184   -  - Java Version    : 1.7.0_67
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-64) 185   -  - File separator  : \
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-65) 186   -  - Timezone        : Asia/Shanghai
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-66) 188   -  - OS              : Windows 7 amd64
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-67) 189   -  - ServerInfo      : Apache Tomcat/7.0.30
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-68) 191   -  - Servlet API     : 3.0
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-73) 192   -  - ContextPath     : /backend
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 195   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-231) 197   - >> app.root = E:/MavenP/etl/backend/src/main/webapp
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.castor.Castors(line-115) 285   - Using 94 castor for Castors
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-368) 289   - @IocBy(type=org.nutz.mvc.ioc.provider.ComboIocProvider, args=["*js", "ioc/", "*anno", "cn.jdworks.etl.backend", "*tx"],init=[])
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 305   - Found 2 resource by src( ioc/ ) , regex( ^(.+[.])(js|json)$ )
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 306   - loading ioc js config from [biz.js]
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-44) 310   - loading ioc js config from [dao.js]
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-52) 313   - Loaded 3 bean define from path=[ioc/] --> [dataSource, dao, executorManager]
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 321   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 339   - Found : class cn.jdworks.etl.backend.module.TimerTaskModule
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-71) 360   - Found : class cn.jdworks.etl.backend.module.TimerTaskExeModule
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.ioc.loader.annotation.AnnotationIocLoader(line-48) 369   - Found 2 classes in 1 base-packages!
+beans = ["timerTaskModule", "timerTaskExeModule"]
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.json.JsonLoader(line-36) 371   - Loaded 5 bean define from reader --
+[txREPEATABLE_READ, txREAD_COMMITTED, txNONE, txSERIALIZABLE, txREAD_UNCOMMITTED]
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-96) 376   - NutIoc init begin ...
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.ioc.impl.NutIoc(line-113) 379   - ... NutIoc init complete
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.config.AbstractNutConfig(line-119) 381   - MainModule: <cn.jdworks.etl.backend.MainModule>
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-157) 384   - Build URL mapping by org.nutz.mvc.impl.UrlMappingImpl ...
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-358) 387   - @Views(DefaultViewMaker)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-259) 392   - @ChainBy(org.nutz.mvc.impl.NutActionChainMaker)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-154) 399   - module class location 'file:/E:/MavenP/etl/backend/target/classes/'
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-184) 400   -  > scan 'cn.jdworks.etl.backend'
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 405   - Found 12 resource by src( cn/jdworks/etl/backend/ ) , regex( ^.+[.]class$ )
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 407   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskModule'
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.Loadings(line-198) 408   -    >> add 'cn.jdworks.etl.backend.module.TimerTaskExeModule'
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 416   - Optional processor class not found, disabled : org.nutz.integration.shiro.NutShiroProcessor
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutActionChainMaker(line-73) 429   - Optional processor class not found, disabled : org.nutz.plugins.validation.ValidationProcessor
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 465   -    '/timertask/add'            >> TimerTaskModule.add(...)       : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 467   -    '/timertask/count'          >> TimerTaskModule.count(...)     : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 470   -    '/timertask/'               >> TimerTaskModule.getAllTasks(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 474   -    '/timertask/update'         >> TimerTaskModule.updateTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 478   -    '/timertask/?'              >> TimerTaskModule.deleteTask(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 483   -    '/timertask/?'              >> TimerTaskModule.getTask(...)   : TimerTask  | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 487   -    '/timertaskexe/count'       >> TimerTaskExeModule.count(...)  : int        | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 489   -    '/timertaskexe/'            >> TimerTaskExeModule.getAllTaskExes(...) : List       | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 494   -    '/timertaskexe/?'           >> TimerTaskExeModule.getTaskExe(...) : TimerTaskExe | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 497   -    '/timertaskexe/update'      >> TimerTaskExeModule.updateTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 501   -    '/timertaskexe/add'         >> TimerTaskExeModule.addTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] WARN  org.nutz.mvc.impl.UrlMappingImpl(line-61) 504   - Duplicate @At mapping ? path=/timertaskexe/?
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-130) 506   -    '/timertaskexe/?'           >> TimerTaskExeModule.deleteTaskExe(...) : boolean    | @Ok(json ) @Fail(http:500) | by 0 Filters | (I:UTF-8/O:UTF-8)
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-217) 508   - Found 12 module methods
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.mvc.impl.NutLoading(line-323) 510   - @Localization not define
+2016-03-0809:12:23 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-267) 512   - Setup application...
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 513   - Get 'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 515   - 	 >> Load definition
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 517   - Loading define for name=dao
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 522   - Found IocObject(dao) in IocLoader(JsonLoader@160041978)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 523   - 	 >> Make...'dao'<interface org.nutz.dao.Dao>
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 581   - Load class org.nutz.dao.impl.NutDao without AOP
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 583   - Save object 'dao' to [app] 
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 586   - Get 'dataSource'<>
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 587   - 	 >> Load definition
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 588   - Loading define for name=dataSource
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 598   - Found IocObject(dataSource) in IocLoader(JsonLoader@160041978)
+2016-03-0809:12:23 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 599   - 	 >> Make...'dataSource'<>
+2016-03-0809:12:24 [localhost-startStop-1] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 741   - Load class com.alibaba.druid.pool.DruidDataSource without AOP
+2016-03-0809:12:24 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 743   - Save object 'dataSource' to [app] 
+2016-03-0809:12:24 [localhost-startStop-1] INFO  com.alibaba.druid.pool.DruidDataSource(line-669) 946   - {dataSource-1} inited
+2016-03-0809:12:24 [localhost-startStop-1] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 948   - Get 'dataSource'<>
+2016-03-0809:12:24 [localhost-startStop-1] DEBUG org.nutz.dao.impl.NutDao(line-105) 955   - NutDao[_selfId=0] init ...
+2016-03-0809:12:24 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-23) 976   - Init file-pool by: C:\Users\Rayleigh/.nutz/tmp/dao/ [200000]
+2016-03-0809:12:24 [localhost-startStop-1] DEBUG org.nutz.filepool.NutFilePool(line-37) 978   - file-pool.home: 'C:\Users\Rayleigh\.nutz\tmp\dao'
+2016-03-0809:12:24 [localhost-startStop-1] INFO  org.nutz.filepool.NutFilePool(line-66) 980   - file-pool.cursor: 0
+2016-03-0809:12:24 [localhost-startStop-1] DEBUG org.nutz.dao.jdbc.Jdbcs(line-89) 990   - Jdbcs init complete
+2016-03-0809:12:24 [localhost-startStop-1] INFO  org.nutz.dao.jdbc.Jdbcs(line-102) 991   - Get Connection from DataSource for JdbcExpert, if I lock at here, check your database server and configure
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-172) 1753  - JDBC Driver --> mysql-connector-java-5.1.38 ( Revision: fe541c166cec739c74cc727c5da96c1028b4834a )
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-173) 1754  - JDBC Name   --> MySQL Connector Java
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-175) 1756  - JDBC URL    --> jdbc:mysql://127.0.0.1:3306/etl?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1764  - Mysql : character_set_client=utf8
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1765  - Mysql : character_set_connection=utf8
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1766  - Mysql : character_set_database=utf8
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1767  - Mysql : character_set_filesystem=binary
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1769  - Mysql : character_set_results=
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1770  - Mysql : character_set_server=latin1
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1772  - Mysql : character_set_system=utf8
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-184) 1773  - Mysql : character_sets_dir=D:\WAMP\wamp\bin\mysql\mysql5.5.24\share\charsets\
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.DaoSupport(line-189) 1774  - Database info --> MYSQL:[MySQL - 5.5.24]
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.resource.Scans(line-233) 1784  - Found 6 resource by src( cn/jdworks/etl/backend/bean/ ) , regex( ^.+[.]class$ )
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 1882  - SELECT COUNT(*) FROM TimerTask 
+2016-03-0809:12:25 [localhost-startStop-1] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 1884  - SELECT COUNT(*) FROM TimerTaskExe 
+2016-03-0809:12:25 [localhost-startStop-1] INFO  org.nutz.mvc.impl.NutLoading(line-139) 1885  - Nutz.Mvc[etl] is up in 1690ms
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.mvc.impl.UrlMappingImpl(line-92) 75034  - Found mapping for [GET] path=/timertaskexe/ : TimerTaskExeModule.getAllTaskExes(TimerTaskExeModule.java:34)
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 75038  - Get 'timerTaskExeModule'<class cn.jdworks.etl.backend.module.TimerTaskExeModule>
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 75040  - 	 >> Load definition
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 75041  - Found IocObject(timerTaskExeModule) in IocLoader(AnnotationIocLoader@567433828)
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 75043  - 	 >> Make...'timerTaskExeModule'<class cn.jdworks.etl.backend.module.TimerTaskExeModule>
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 75045  - Load class cn.jdworks.etl.backend.module.TimerTaskExeModule without AOP
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 75047  - Save object 'timerTaskExeModule' to [app] 
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 75049  - Get 'dao'<>
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.NutIoc(line-149) 75050  - Get 'executorManager'<>
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.NutIoc(line-169) 75051  - 	 >> Load definition
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.loader.map.MapLoader(line-67) 75053  - Loading define for name=executorManager
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader(line-144) 75054  - Found IocObject(executorManager) in IocLoader(JsonLoader@160041978)
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.NutIoc(line-199) 75056  - 	 >> Make...'executorManager'<>
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory(line-84) 75057  - Load class cn.jdworks.etl.backend.biz.ExecutorManager without AOP
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.ioc.impl.ScopeContext(line-59) 75058  - Save object 'executorManager' to [app] 
+2016-03-0809:13:38 [http-bio-8080-exec-5] INFO  cn.jdworks.etl.backend.biz.ExecutorManager(line-11) 75059  - Executor Manager created.
+2016-03-0809:13:38 [http-bio-8080-exec-5] INFO  cn.jdworks.etl.backend.biz.ExecutorManager(line-18) 75185  - Executor manager connected ActiveMQ.
+2016-03-0809:13:38 [http-bio-8080-exec-5] DEBUG org.nutz.dao.impl.sql.run.NutDaoExecutor(line-193) 75287  - SELECT * FROM TimerTaskExe 

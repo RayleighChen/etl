@@ -6,11 +6,15 @@ import org.nutz.dao.Dao;
 
 import javax.servlet.http.HttpSession;
 
+import org.apache.activemq.thread.Task;
 import org.nutz.dao.Cnd;
 import org.nutz.ioc.loader.annotation.Inject;
 import org.nutz.ioc.loader.annotation.IocBean;
 import org.nutz.mvc.annotation.*;
+
 import org.nutz.json.*;
+
+import java.util.Date;
 import java.util.List;
 import cn.jdworks.etl.backend.biz.ExecutorManager;
 
@@ -33,6 +37,14 @@ public class TimerTaskModule {
 		return list;
 	}
 
+	protected String checkUser(Task task, boolean create) {
+		if (task == null) {
+			return "空对象";
+		}
+		return null;
+
+	}
+
 	@At("/?")
 	@GET
 	public TimerTask getTask(int Id) {
@@ -40,17 +52,42 @@ public class TimerTaskModule {
 		return t;
 	}
 
-	@At("/?")
+	@At("/add")
 	@POST
-	public boolean updateTask(int Id, @Param("..") TimerTask task) {
-		// TODO 这里是实现代码
+	public boolean add(@Param("..") TimerTask task) {
+
+		task.setDescription(task.getDescription());
+		task.setName(task.getName());
+		task.setExeTime(new Date());
+		task.setScript(task.getScript());
+		task.setStatus(task.getStatus());
+		task = dao.insert(task);
+		return true;
+	}
+
+	@At("/update")
+	@POST
+	public boolean updateTask(@Param("..") TimerTask task) {
+		System.out.println(task.getId());
+		task.setDescription(task.getDescription());
+		task.setScript(task.getScript());
+		task.setStatus(task.getStatus());
+		task.setExeTime(new Date());
+		task.setName(task.getName());
+		dao.update(task);
 		return true;
 	}
 
 	@At("/?")
 	@DELETE
-	public void deleteTask(int Id) {
-		// TODO 这里是实现代码
+	public boolean deleteTask(@Param("Id") int Id) {
+
+		if (dao.fetch(TimerTask.class, Cnd.where("Id", "=", Id)) != null) {
+			dao.delete(TimerTask.class, Id);
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	// default to @At("/timertask/count")

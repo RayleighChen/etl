@@ -6,7 +6,7 @@ var ioc = {
                 depose : 'close'
             },
             fields : {
-                url : "jdbc:mysql://127.0.0.1:3306/etl",
+                url : "jdbc:mysql://127.0.0.1:3306/etl?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8",
                 username : "etl",
                 password : "etl888",
                 testWhileIdle : true,

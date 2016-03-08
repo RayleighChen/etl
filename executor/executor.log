@@ -1,0 +1,8 @@
+2016-03-0416:35:20 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 0     - hello world
+2016-03-0416:41:04 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 0     - hello world
+2016-03-0416:47:08 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 0     - hello world
+2016-03-0416:47:20 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 0     - hello world
+2016-03-0416:54:13 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 0     - hello world
+2016-03-0416:56:25 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 1     - hello world
+2016-03-0622:51:57 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 0     - hello world
+2016-03-0716:20:37 [main] INFO  cn.jdworks.etl.executor.App(line-10) 0     - Hello APP

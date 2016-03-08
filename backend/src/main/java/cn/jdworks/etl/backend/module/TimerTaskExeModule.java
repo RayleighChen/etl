@@ -11,6 +11,8 @@ import org.nutz.ioc.loader.annotation.Inject;
 import org.nutz.ioc.loader.annotation.IocBean;
 import org.nutz.mvc.annotation.*;
 import org.nutz.json.*;
+
+import java.util.Date;
 import java.util.List;
 import cn.jdworks.etl.backend.biz.ExecutorManager;
 
@@ -33,64 +35,52 @@ public class TimerTaskExeModule {
 		return list;
 	}
 
-	@At("/get/?")
+	@At("/?")
 	@GET
 	public TimerTaskExe getTaskExe(int Id) {
 		TimerTaskExe t = dao.fetch(TimerTaskExe.class, Id);
 		return t;
 	}
 
-	@At("/?")
+	@At("/update")
 	@POST
-	public boolean updateTaskExe(int Id, @Param("..") TimerTaskExe task) {
+	public boolean updateTaskExe(@Param("..") TimerTaskExe task) {
 		// TODO 这里是实现代码
-//		 NutMap re = new NutMap();
-//	        String msg = checkUser(user, false);
-//	        if (msg != null){
-//	            return re.setv("ok", false).setv("msg", msg);
-//	        }
-//	        user.setName(null);// 不允许更新用户名
-//	        user.setCreateTime(null);//也不允许更新创建时间
-//	        user.setUpdateTime(new Date());// 设置正确的更新时间
-//	        dao.updateIgnoreNull(user);// 真正更新的其实只有password和salt
-//	        return re.setv("ok", true);
-		return true;
-	}
+		//System.out.println(task.getId());
+		task.setExeTime(new Date());
+		task.setStatus(task.getStatus());
+		task.setLog(task.getLog());
+		task.setId_TimerTask(task.getId_TimerTask());
+		dao.update(task);
+		return true;			
+}
 	
-	@At("/?")
+	@At("/add")
 	@POST
-	public boolean addTaskExe(int Id, @Param("..") TimerTaskExe task) {
+	public boolean addTaskExe(@Param("..") TimerTaskExe task) {
 		// TODO 这里是实现代码
-//		 NutMap re = new NutMap();
-//	        String msg = checkUser(user, false);
-//	        if (msg != null){
-//	            return re.setv("ok", false).setv("msg", msg);
-//	        }
-//	        user.setName(null);// 不允许更新用户名
-//	        user.setCreateTime(null);//也不允许更新创建时间
-//	        user.setUpdateTime(new Date());// 设置正确的更新时间
-//	        dao.updateIgnoreNull(user);// 真正更新的其实只有password和salt
-//	        return re.setv("ok", true);
+		task.setExeTime(new Date());
+		task.setStatus(task.getStatus());
+		task.setLog(task.getLog());
+		task.setId_TimerTask(task.getId_TimerTask());
+		dao.insert(task);
 		return true;
-	}
-	
-	@At("/?")
-	@DELETE
-	public void deleteTaskExe(int Id) {
-		// TODO 这里是实现代码
 		
 	}
 	
-//    @At
-//    public Object delete(@Param("id")int id, @Attr("me")int me) {
-//        if (me == id) {
-//            return new NutMap().setv("ok", false).setv("msg", "不能删除当前用户!!");
-//        }
-//        dao.delete(User.class, id); // 再严谨一些的话,需要判断是否为>0
-//        return new NutMap().setv("ok", true);
-//    }
-//    
-	// default to @At("/TimerTaskExe/count")
+	@At("/?")
+	//@DELETE
+	public boolean deleteTaskExe(@Param("Id")int Id) {
+		
+		if (dao.fetch(TimerTaskExe.class, Cnd.where("Id","=",Id)) != null) {
+			dao.delete(TimerTaskExe.class,Id);
+			return true;
+		} else {
+			return false;
+		}
+		
+	}
+
 	@At
 	public int count() {
 		executorManager.foo();

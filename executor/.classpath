@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
-	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-core/2.16.2/camel-core-2.16.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-stream/2.16.2/camel-stream-2.16.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-jms/2.16.2/camel-jms-2.16.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-spring/2.16.2/camel-spring-2.16.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/4.1.9.RELEASE/spring-aop-4.1.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/4.1.9.RELEASE/spring-expression-4.1.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/4.1.9.RELEASE/spring-tx-4.1.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-jms/4.1.9.RELEASE/spring-jms-4.1.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-messaging/4.1.9.RELEASE/spring-messaging-4.1.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-camel/5.13.0/activemq-camel-5.13.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-spring/5.13.0/activemq-spring-5.13.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/xbean/xbean-spring/3.18/xbean-spring-3.18.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-broker/5.13.0/activemq-broker-5.13.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-client/5.13.0/activemq-client-5.13.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-openwire-legacy/5.13.0/activemq-openwire-legacy-5.13.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-pool/5.13.0/activemq-pool-5.13.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-jms-pool/5.13.0/activemq-jms-pool-5.13.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

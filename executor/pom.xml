@@ -18,54 +18,33 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.10</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-                        <groupId>org.apache.camel</groupId>
-                        <artifactId>camel-core</artifactId>
-                        <version>2.16.2</version>
-                </dependency>
-                <dependency>
-                        <groupId>org.apache.camel</groupId>
-                        <artifactId>camel-stream</artifactId>
-                        <version>2.16.2</version>
-                </dependency>
-                <dependency>
-                        <groupId>org.apache.camel</groupId>
-                        <artifactId>camel-jms</artifactId>
-                        <version>2.16.2</version>
-                </dependency>
-                <dependency>
-                        <groupId>org.apache.activemq</groupId>
-                        <artifactId>activemq-camel</artifactId>
-                        <version>5.13.0</version>
-                </dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+    <dependency>  
+      <groupId>cn.jdworks.etl</groupId>  
+      <artifactId>protocol</artifactId>  
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
+    <finalName>executor</finalName>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>**/*.properties</include>
+        </includes>
+        <filtering>false</filtering>
+      </resource>
+    </resources>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-shade-plugin</artifactId>
-        <version>2.4.3</version>
-        <executions>
-          <execution>
-            <phase>package</phase>
-            <goals>
-              <goal>shade</goal>
-            </goals>
-            <configuration>
-              <transformers>
-                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>cn.jdworks.etl.executor.App</mainClass>
-                </transformer>
-              </transformers>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-
       <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>exec-maven-plugin</artifactId>
@@ -74,8 +53,6 @@
                 <mainClass>cn.jdworks.etl.executor.App</mainClass>
             </configuration>
       </plugin>
-
-
     </plugins>
   </build>
   
