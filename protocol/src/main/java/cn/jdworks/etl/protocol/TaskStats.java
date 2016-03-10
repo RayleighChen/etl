@@ -4,6 +4,10 @@ import java.util.Hashtable;
 import java.io.*;
 
 public class TaskStats implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3344809732197058226L;
 	private int id;
 	private int threadNum;
 	private Hashtable<String, Integer> dbConns = new Hashtable<String, Integer>();

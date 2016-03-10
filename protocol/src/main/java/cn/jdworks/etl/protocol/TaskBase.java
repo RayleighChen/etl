@@ -1,6 +1,5 @@
 package cn.jdworks.etl.protocol;
 
-import java.io.*;
 import java.net.*;
 import cn.jdworks.etl.protocol.TaskStats;
 

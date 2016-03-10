@@ -6,3 +6,6 @@
 2016-03-0416:56:25 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 1     - hello world
 2016-03-0622:51:57 [cn.jdworks.etl.executor.App.main()] INFO  cn.jdworks.etl.executor.App(line-10) 0     - hello world
 2016-03-0716:20:37 [main] INFO  cn.jdworks.etl.executor.App(line-10) 0     - Hello APP
+2016-03-0817:50:42 [main] INFO  cn.jdworks.etl.executor.App(line-8) 0     - Hello APP
+2016-03-0818:29:52 [main] INFO  cn.jdworks.etl.executor.App(line-8) 0     - Hello APP
+2016-03-0818:30:44 [main] INFO  cn.jdworks.etl.executor.App(line-8) 0     - Hello APP

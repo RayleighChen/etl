@@ -17,6 +17,7 @@ public class ProcessTest {
 			list.add("-jar");
 			list.add("../footask/target/footask-tmp.jar");
 			list.add("1234");
+			list.add("3");
 			pb = new ProcessBuilder(list);
 			p = pb.start();
 

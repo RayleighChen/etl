@@ -12,15 +12,21 @@ public class FooTask extends TaskBase {
 		System.out.println("foo task start.");
 		onThreadCreated();
 		update();
-		System.err.println("error log");
-		onThreadReleased();
+		
+		onThreadCreated();
 		update();
-		onConnectionCreated("foo");
-		System.err.println("error log");
+		onThreadCreated();
 		update();
-		onConnectionReleased("foo");
+		
 		System.err.println("error log");
+//		onThreadReleased();
+//		update();
+		
+		System.err.println("error log");
+		onConnectionCreated("mysql");
 		update();
+	
+		System.err.println("error log");
 		System.out.println("foo task end.");
 	}
 

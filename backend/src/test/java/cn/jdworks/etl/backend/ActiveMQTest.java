@@ -1,14 +1,18 @@
 package cn.jdworks.etl.backend;
 
 import java.net.URI;
+import java.util.Hashtable;
+
 import org.apache.activemq.broker.BrokerFactory;
 import org.apache.activemq.broker.BrokerService;
-
 import org.junit.*;
 
 import javax.jms.*;
+
 import org.apache.activemq.ActiveMQConnectionFactory;
+
 import java.io.Serializable;
+
 import cn.jdworks.etl.protocol.*;
 
 public class ActiveMQTest implements ExceptionListener {
@@ -100,7 +104,7 @@ public class ActiveMQTest implements ExceptionListener {
 			// String text = "Hello world! From: " +
 			// Thread.currentThread().getName() + " : " + this.hashCode();
 			// Person person = new Person(23, "阿三");
-			ExecutorHeartbeat obj = new ExecutorHeartbeat("xxx", 2.0, 3.3);
+			ExecutorHeartbeat obj = new ExecutorHeartbeat(2.0, 3.3, new Hashtable<Integer, TaskStats>());
 			ObjectMessage message = session
 					.createObjectMessage((Serializable) obj);
 
@@ -155,7 +159,7 @@ public class ActiveMQTest implements ExceptionListener {
 				try {
 					ExecutorHeartbeat obj = (ExecutorHeartbeat) objMsg
 							.getObject();
-					System.out.println("IP：" + obj.getIpAddr() + " cpu:"
+					System.out.println("Guid：" + obj.getId() + " cpu:"
 							+ obj.getCpuLoad() + " mem:" + obj.getMemLoad());
 				} catch (JMSException e) {
 					e.printStackTrace();

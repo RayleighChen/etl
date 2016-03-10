@@ -4,16 +4,14 @@ import cn.jdworks.etl.backend.bean.TimerTaskExe;
 
 import org.nutz.dao.Dao;
 
-import javax.servlet.http.HttpSession;
-
 import org.nutz.dao.Cnd;
 import org.nutz.ioc.loader.annotation.Inject;
 import org.nutz.ioc.loader.annotation.IocBean;
 import org.nutz.mvc.annotation.*;
-import org.nutz.json.*;
 
 import java.util.Date;
 import java.util.List;
+
 import cn.jdworks.etl.backend.biz.ExecutorManager;
 
 @IocBean
@@ -73,7 +71,10 @@ public class TimerTaskExeModule {
 	public boolean deleteTaskExe(@Param("Id")int Id) {
 		
 		if (dao.fetch(TimerTaskExe.class, Cnd.where("Id","=",Id)) != null) {
-			dao.delete(TimerTaskExe.class,Id);
+//			dao.delete(TimerTaskExe.class,Id);
+			TimerTaskExe t = dao.fetch(TimerTaskExe.class, Id);
+			t.setStatus(2);
+			dao.update(t);
 			return true;
 		} else {
 			return false;
@@ -83,7 +84,6 @@ public class TimerTaskExeModule {
 
 	@At
 	public int count() {
-		executorManager.foo();
 		return dao.count(TimerTaskExe.class);
 	}
 }
